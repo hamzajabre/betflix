@@ -45,7 +45,7 @@ function getMovie(movieTitle) {
     const searchInput = document.querySelector(".input-search-bar");
     
     
-    /* If I create the instance inside of here, then anything that I need to do further, has to be nested inside. This doesn't feel right at all*/
+    
     searchBtn.addEventListener("click", (e) => {
       e.preventDefault();
       getMovie(searchInput.value).then((res) => {
